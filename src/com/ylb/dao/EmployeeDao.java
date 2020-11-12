@@ -26,7 +26,7 @@ public interface EmployeeDao {
      * 添加员工
      * @param emp
      */
-    public void save(Employee emp);
+    public int save(Employee emp);
 
     /**
      * 修改员工信息
